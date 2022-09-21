@@ -1,0 +1,220 @@
+/* FONTES  */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap'); 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;400;500&family=Zen+Loop&display=swap');
+
+
+
+
+
+/* COLORS */
+
+$softwhite: #DDDDDD;
+$black: #222831;
+$seablue: #03506F;
+$blue: #30475E;
+$orange: #F05454;
+
+
+/* 
+
+NAVBARMENU
+NAVBARMENU
+NAVBARMENU
+
+*/
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+.navbarmenu {
+    background-color: $seablue;
+    box-shadow: 0 0 15px 0;
+}
+
+
+.navbarmenuUl {
+    list-style-type:none;
+    overflow: hidden;
+    padding:10px;
+    font-family: 'Encode Sans SC', sans-serif;
+    
+}
+
+.navbarmenuLi {
+    float: left;
+}
+
+.navbarmenuA {
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+    color:white;
+    letter-spacing: 2px;
+    
+}
+
+.navbarmenuA:hover {
+    border: 1px solid $softwhite;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 15px 0 $orange;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-color: $orange;
+    color:white;
+}
+
+.navbarmenuh1 {
+    font-size: 20px;
+    color: $softwhite;
+}
+
+.navbarmenuLiLogOut {
+    text-align: right;
+    margin-right: 100px;
+    display: block;
+}
+
+.navbarmenuAlogout {
+    font-size: 25px;
+    background-color: white;
+    padding:8px;
+    border-radius: 10px ;   
+    font-weight: 500;
+    color: $seablue;
+    font-weight: 700;
+}
+
+.navbarmenuAlogout:hover {
+    background-color: $orange;
+    color:white;
+    transition: 0.5s;
+    box-shadow: 0 0 15px 0 $orange;
+    text-transform:uppercase;
+}
+
+
+
+/* 
+    
+    SIDE MENU
+    SIDE MENU
+    SIDE MENU
+
+ */
+
+.sidebar {
+    background-color: $orange;
+    box-shadow: 0 0 10px 0;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.sidebarUl {
+    list-style-type: none;
+    overflow: hidden;
+    padding:10px;
+}
+
+.sidebarLi {
+    float: left;
+}
+
+.sidebarA {
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+    color:white;
+    letter-spacing: 2px;
+    
+}
+
+.sidebarA:hover {
+    background-color: white;
+    color:white;
+    transition: 0.5s;
+    box-shadow: 0 0 15px 0 $orange;
+    text-transform:uppercase;
+    color: $orange;
+    border-radius: 5px;
+    transition: 0.2;
+} 
+
+.sidebarh2 {
+    font-size: 20px;
+
+}
+
+/* 
+
+NAVBARLOGIN
+NAVBARLOGIN
+NAVBARLOGIN
+
+*/
+
+.navbarlogin {
+    background-color: $seablue;
+    box-shadow: 0 0 15px 0;
+}
+
+.navbarloginUl {
+    list-style-type:none;
+    overflow: hidden;
+    padding:10px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.navbarloginLi {
+    float: left;    
+}
+
+.navbarloginA {
+    display: inline-block;
+    font-size: 25px;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+    color:white;
+    letter-spacing: 2px;
+}
+
+
+.navbarloginA:hover {
+    border: 1px solid $softwhite;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 15px 0 $orange;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-color: $orange;
+    color:white;
+    
+}
+
+/* UI COMPONENTS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,273 @@
+$softwhite: #DDDDDD;
+$black: #222831;
+$seablue: #03506F;
+$blue: #30475E;
+$orange: #F05454;
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;400;500&family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.errormessage {
+    color:red;
+}
+
+
+.loaderApp {
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: 3px;
+    color: $seablue;
+}
+
+.centeredDiv {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%;
+}
+
+.loaderTitle {
+    font-family: 'Encode Sans SC', sans-serif;
+    background-color:$seablue;
+    padding:20px;
+    border-radius:5px;
+    box-shadow: 0 0 15px 0 black;
+    color:$softwhite;
+    text-align: center;
+    font-weight: 700;
+}
+
+.componentTitle {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: $seablue;
+}
+
+/* 
+
+NOTAS NOTAS NOTAS
+NOTAS NOTAS NOTAS
+NOTAS NOTAS NOTAS
+
+*/
+
+.containerFloat {
+    background-color: $seablue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.childFloatLeft {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid white;
+    box-shadow: 0 0 15px 0 black;
+}
+
+.childFloatRight {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid white;
+    box-shadow: 0 0 15px 0 black;
+    
+}   
+
+.noteDiv {
+    padding:25px;
+    border: 1px solid black;
+}
+
+.noteSpan {
+    font-size: 26px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+}
+
+
+/* UI COMPONENTS */
+
+
+.inputField50 {
+    width: 50%;
+    padding:8px;
+    outline: 0;
+    color:$seablue;
+    box-shadow: 0 0 5px black;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;  
+    margin: 25px 0;
+
+    
+    
+}
+
+.inputButton25 {
+    width: 25%;
+    padding:8px;
+    outline: 0;
+    color:white;
+    box-shadow: 0 0 5px black;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 600;
+    background-color: $orange;
+    font-size: 16px;
+    border: 0;  
+    margin: 25px 0;
+    
+}
+
+.inputButton50 {
+    width: 50%;
+    padding:8px;
+    outline: 0;
+    color:white;
+    box-shadow: 0 0 5px black;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 600;
+    background-color: $orange;
+    font-size: 20px;
+    border: 0;
+    margin: 25px 0;
+      
+}
+
+
+.formLabel25 {
+    width: 25%;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Encode Sans SC', sans-serif;
+    color: $seablue;
+}
+
+
+
+.buttonGroup {
+    padding:20px;
+    text-align: left;
+
+}
+
+
+.inputGroup {
+    padding:20px;
+    margin-left: 50px;
+}
+
+.navbarloginA{
+    font-size: 10px;
+}
+
+
+
+/* 
+LOGINLOGINLOGIN
+
+*/
+
+.formlogreg {
+    
+}
+
+
+/* INDEX INDEX INDEX */
+
+.IndexLayout {
+    border-radius: 5px;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+
+.indexLeft {
+    
+    
+    
+}
+
+.indexRight {
+    
+} 
+
+.indexh1 {
+    font-family: 'Encode Sans SC', sans-serif;
+    padding:20px;
+    
+}
+.logoPro {
+    font-size: 75px;
+    background-color: $softwhite;
+    padding: 8px;
+    color: $seablue;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+
+.logoGest {
+    font-size: 75px;
+    background-color: $seablue;
+    padding: 8px;
+    color:$softwhite;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.logoWrapper {
+    
+}
+
+.indexh2 {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 50px;
+    color: $seablue;
+    padding: 20px;
+}
+
+.indexparag {
+    font-size: 25px;
+    color:$seablue; 
+    font-family: 'Arvo', serif;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+
+}
+
+.indexhr {
+    background-color: $black;
+    padding: 2px 0;
+    border-radius: 5px;
+    background-color: $seablue  ;
+}
+
+.HilightText {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Encode Sans SC', sans-serif;
+}

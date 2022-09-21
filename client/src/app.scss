@@ -1,0 +1,104 @@
+/* PALETA DE CORES APLICACAO */
+$darkerblue: #0598c9;
+$lightblue: #0ABCF6;
+$seagreen : #08D4D0;
+$lightgreen: #02EBA5;
+$darkergreen: #08D45D;
+$limegreen: #0AF629;
+
+
+
+$softwhite: #DDDDDD;
+$black: #222831;
+$seablue: #03506F;
+$blue: #30475E;
+$orange: #F05454;
+
+
+$errRed: #b33939;
+
+.errLog {
+    color: $errRed;
+    font-size: 12px;
+    display: inline-flex;
+    border: 1px solid $errRed;
+}
+
+.errSpan {
+    padding:2px;
+    margin:2px;
+}
+
+.input {
+    font-size:14px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.label {
+    margin:0;
+    font-size: 16px;
+}
+
+.button {
+    width: 150px;
+    border:1px solid $lightblue;
+    color:white;
+    background-color: $seagreen;
+    font-weight: 700;
+}
+
+
+
+
+.left-side-todos {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.todo-content {
+    background-color: Green;
+    margin:20px;
+    border: 1px solid black;
+
+    .todo {
+        
+        .todo-title {
+            padding:10px;
+            font-weight:600   
+        }
+
+        .span-title{
+
+            padding:5px;
+            font-weight:600
+        }
+        .span-user {
+            padding:5px;
+            font-weight: 500;
+        }
+    }
+
+    .todo-footer {
+        
+        padding:5px;
+        border-bottom: 1px solid black;
+    }
+
+    .todo-body {
+        padding:10px;
+    }
+
+    /* .todo-footer {
+
+    } */
+
+}
+
+
+
+
+
+
+
